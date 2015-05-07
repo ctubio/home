@@ -1,0 +1,28 @@
+# local files
+.bash_history
+.git-credentials
+.gnupg
+.ICEauthority
+.ssh
+.viminfo
+
+# Lab
+lab
+
+# Gnome Desktop
+.cache
+.config
+.dbus
+.gconf
+.gnome2
+.gksu.lock
+.gstreamer-0.10
+.gtk-bookmarks
+.local
+.mission-control
+.mozilla
+.pulse-cookie
+.pulse
+.thumbnails
+.xsession-errors
+.xsession-errors.old

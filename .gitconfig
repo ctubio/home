@@ -1,0 +1,9 @@
+[user]
+	name = Carles Tubio
+	email = ctubio@users.noreply.github.com
+	signingkey = C3B39DE0
+[core]
+	editor = vim
+	pager = most
+[color]
+	ui = true
