@@ -1,2 +1,1 @@
-.gitignore file should be a whitelist rather than a blacklist.
 notify user about files out of date.
