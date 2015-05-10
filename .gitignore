@@ -2,6 +2,5 @@
 !.bash*
 .bash_history
 !.git*
-.git-*
 !.*rc
 !TODO
