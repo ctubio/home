@@ -5,5 +5,6 @@
 [core]
 	editor = vim
 	pager = most
+	autocrlf = input
 [color]
 	ui = true
