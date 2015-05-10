@@ -69,7 +69,11 @@ function promptcursor () {
 #	echo -ne "\e[?22;9c";
 }
 
-PS1='$(promptdate)$(promptuptime)$(promptpwd)$(__git_ps1)$(promptcursor)';
+function promptbattery () {
+	echo -ne " ${BLUE}`upower -i "$(upower -e | tail -n 1)" | grep percentage | cut -d :  -f 2 | sed -e "s/ *//"`";
+}
+
+PS1='$(promptdate)$(promptuptime)$(promptbattery)$(promptpwd)$(__git_ps1)$(promptcursor)';
 PS2="\[\033[1;37m\] \$>\[\033[0m\]";
 PS3="\[\033[1;37m\] \$:\[\033[0m\]";
 PS4="\[\033[1;37m\] \$+\[\033[0m\]";
