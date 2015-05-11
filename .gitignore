@@ -2,5 +2,8 @@
 !.bash*
 .bash_history
 !.git*
+!.gnupg
+.gnupg/*
+!.gnupg/ctubio.gpg
 !.*rc
 !TODO
