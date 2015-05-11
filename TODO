@@ -1,1 +1,2 @@
 notify user about files out of date.
+replace gpg armor file by git hash-object.
