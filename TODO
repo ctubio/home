@@ -1,2 +1,3 @@
 notify user about files out of date.
+delete manual imported key and use a server.
 replace gpg armor file by git hash-object.

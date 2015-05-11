@@ -1,4 +1,4 @@
 alias ..='cd ..';
 alias wtf='exit';
 alias his='history';
-alias gch='git commit -m `hostname`';
+alias gch='git commit -S -m `hostname`';
