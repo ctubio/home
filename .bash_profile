@@ -70,7 +70,7 @@ function promptcursor () {
 }
 
 function promptbattery () {
-	echo -ne " ${BLUE}`upower -i "$(upower -e | tail -n 1)" | grep percentage | cut -d :  -f 2 | sed -e "s/ *//"`";
+	upower -v >/dev/null 2>&1 && echo -ne " ${BLUE}`upower -i "$(upower -e | tail -n 1)" | grep percentage | cut -d :  -f 2 | sed -e "s/ *//"`";
 }
 
 PS1='$(promptdate)$(promptuptime)$(promptbattery)$(promptpwd)$(__git_ps1)$(promptcursor)';
