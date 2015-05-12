@@ -4,7 +4,7 @@
 	signingkey = C3B39DE0
 [core]
 	editor = vim
-	pager = most
+	pager = less
 	autocrlf = input
 [color]
 	ui = true
