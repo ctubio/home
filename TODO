@@ -1,2 +1,2 @@
 notify user about files out of date.
-delete manual imported key and build a server.
+delete manual imported key and re-import using the new server.
