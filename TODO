@@ -1,5 +1,3 @@
 notify user about files out of date.
-allow keyservers to work with php OR allow php in index with proxy setup in /pks instead of / (see wtf matt did).
 allow keyservers to display the real public domain instead of the static configured one.
 allow 2 interfaces for historical purposes.
-..profit.
