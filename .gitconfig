@@ -10,3 +10,5 @@
 	ui = true
 [commit]
 	gpgSign = true
+[alias]
+	st = status
