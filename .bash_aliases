@@ -1,5 +1,7 @@
 alias ..='cd ..';
 alias ...='cd ../..';
+alias -..='cd -';
+alias ~..='cd ~';
 alias wtf='exit';
 alias top='htop';
 alias his='history';
