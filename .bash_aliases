@@ -4,6 +4,7 @@ alias wtf='exit';
 alias top='htop';
 alias his='history | grep';
 alias ga.='git add .';
+alias gaa='git add . --all';
 alias gst='git status';
 alias gdo='git diff origin/master';
 alias gcs='git commit -S -m';
