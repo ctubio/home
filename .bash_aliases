@@ -3,6 +3,7 @@ alias ...='cd ../..';
 alias wtf='exit';
 alias top='htop';
 alias his='history | grep';
+alias gmv='git mv';
 alias ga.='git add .';
 alias gaa='git add . --all';
 alias gst='git status';
