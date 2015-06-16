@@ -13,5 +13,5 @@ alias gch='git commit -S -m `hostname`';
 alias gfm='git fetch && git merge origin/master';
 alias gts='git tag -s';
 alias gpt='git push --tags';
-alias SKS='tail -f /var/lib/sks/db.log /var/lib/sks/recon.log';
+alias SKS='tail -f /var/lib/sks/db.log /var/lib/sks/recon.log /var/log/apache2/access.log';
 alias mem='egrep --color "Mem|Cache|Swap" /proc/meminfo';
