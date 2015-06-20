@@ -42,11 +42,11 @@ fi
 function promptdate () {
   echo -n -e "${NC}\n${ORANGE}[";
   echo -n `date +%H:%M:%S`;
-  echo -n "] ";
+  echo -n "]";
 }
 
 function promptuptime () {
-  echo -n -e "${green}";
+  echo -n -e "${BLUE} ${HOSTNAME} ${green}";
   echo -n `uptime | sed -e "s/.*up//g"  -e "s/ [^\ ]* user.*//g" -e "s/,//g" -e "s/  / /"`;
   echo -n "";
 }
@@ -60,7 +60,7 @@ function promptpwd () {
 #    else
 #     echo -n -e "\033]0;${USER}@${HOSTNAME}: ${PWD}\007";
 #    fi
-     echo -n -e "${RED} ${PWD}${YELLOW}";
+     echo -n -e " ${RED}${PWD}${YELLOW}";
 }
 
 function promptcursor () {
