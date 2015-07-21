@@ -16,3 +16,4 @@ alias gpt='git push --tags';
 alias SKS='tail -f /var/lib/sks/db.log /var/lib/sks/recon.log /var/log/nginx/access.log';
 alias mem='egrep --color "Mem|Cache|Swap" /proc/meminfo';
 alias net='sudo netstat -anp | egrep --color';
+alias TOP='speedometer -r eth0 -t eth0';
