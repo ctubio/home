@@ -17,4 +17,4 @@ alias SKS='tail -f /var/lib/sks/db.log /var/lib/sks/recon.log /var/log/nginx/acc
 alias mem='egrep --color "Mem|Cache|Swap" /proc/meminfo';
 alias net='sudo netstat -anp | egrep --color';
 alias TOP='speedometer -r eth0 -t eth0';
-alias hey='sudo sed -i "s/.*\( localhome\)/`echo $SSH_CLIENT | cut -d \  -f 1`\1/g" /etc/hosts && cat /etc/hosts | egrep --color localhome';
+alias hey='cat /etc/hosts | grep localhome && sudo sed -i "s/.*\( localhome\)/`echo $SSH_CLIENT | cut -d \  -f 1`\1/g" /etc/hosts && cat /etc/hosts | egrep --color localhome';
