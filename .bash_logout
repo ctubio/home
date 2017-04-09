@@ -3,7 +3,7 @@ if [ "$SHLVL" = 1 ]; then
 fi
 
 if [ "`wc -w < "$HOME/TODO"`" -ne "0" ]; then
-  echo -e "${GREEN}Where are you going?${YELLOW}";
+  echo -e "${_GREEN}Where are you going?${_YELLOW}";
   cat "$HOME/TODO" | sed "s/^/  /";
-  echo -ne "${NC}" && sleep 3;
+  echo -ne "${_NC}" && sleep 1;
 fi
