@@ -63,7 +63,7 @@ function promptpwd () {
 #    else
 #     echo -n -e "\033]0;${USER}@${HOSTNAME}: ${PWD}\007";
 #    fi
-     echo -n -e " ${RED}${PWD}${YELLOW}";
+     echo -n -e " ${RED}\${PWD}${YELLOW}";
 }
 
 function promptcursor () {
