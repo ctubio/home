@@ -18,3 +18,4 @@ alias mem='egrep --color "Mem|Cache|Swap" /proc/meminfo';
 alias net='sudo netstat -anp | egrep --color';
 alias TOP='speedometer -r eth0 -t eth0';
 alias hey='cat /etc/hosts | grep localhome && sudo sed -i "s/.*\( localhome\)/`echo $SSH_CLIENT | cut -d \  -f 1`\1/g" /etc/hosts && cat /etc/hosts | egrep --color localhome';
+function icq { egrep $1 ${2:-"src"} -R --color; }
